@@ -89,4 +89,4 @@ const getProfile = async (req,res) => {
 
 }
 
-export { registerUser, loginUser,getProfile }
+export { registerUser, loginUser, getProfile }
