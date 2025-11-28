@@ -148,7 +148,6 @@ const Appointment = () => {
   }, [docInfo]);
 
   useEffect(() => {
-    console.log('docsSlots:', docsSlots);
   }, [docsSlots]);
 
   if (!docInfo) return null;
